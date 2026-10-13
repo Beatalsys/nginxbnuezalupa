@@ -6,7 +6,7 @@ test_runner:
   image: alpine:latest
   tags:
   - docker
-script:
+  script:
   - echo "git-ruuner test"
   - cat /etc/os-release
 
